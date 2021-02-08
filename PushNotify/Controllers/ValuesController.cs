@@ -17,7 +17,7 @@ namespace PushNotify.Controllers
             {
                 var resp = await client.GetStringAsync("http://loadshedding.eskom.co.za/LoadShedding/getstatus"); // 2
 
-                //string Notification = "";
+             
 
                 if (resp== "1")
                 {
